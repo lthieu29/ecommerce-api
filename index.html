@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thương mại điện tử</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="tab">
+            <div class="tab-shopee">Shopee</div>
+            <div class="tab-tiktok">TiktokShop</div>
+        </div>
+    
+        <div class="mode">
+            <div class="mode-origin">Thông tin từ sàn</div>
+            <div class="mode-ecommerce">Thông tin được xử lý qua EcommerceAPI</div>
+        </div>
+    </div>
+
+    <div class="left">
+        <div class="detail">
+            <div class="access_token">Lấy access token</div>
+    
+            <div class="refresh_token">Refresh token</div>
+    
+            <div class="shop-profile">Lấy về thông tin Shop</div>
+    
+            <div class="product">Lấy hàng hoá theo mã hàng hoá</div>
+    
+            <div class="products">Lấy danh sách hàng hoá</div>
+    
+            <div class="order">Lấy thông tin đơn hàng theo mã đơn hàng</div>
+    
+            <div class="orders">Lấy thông tin nhiều đơn hàng theo mã đơn hàng hoặc thời gian</div>
+    
+            <div class="order-detail">Lấy thông tin chi tiết đơn hàng theo mã đơn hàng</div>
+    
+            <div class="orders-detail">Lấy thông tin chi tiết nhiều đơn hàng theo mã đơn hàng hoặc thời gian</div>
+    
+            <div class="order-promotion">Lấy thông tin khuyến mại (Shopee)</div>
+        </div>
+    </div>
+    <div class="right">
+        <div id="jsonContainer" class="json-container"></div>
+    </div>
+   
+    <script src="index.js"></script>
+    <script src="base.js"></script>
+    <script src="tiktok.js"></script>
+    <script src="lazada.js"></script>
+    <script src="shopee.js"></script>
+</body>
+</html>
